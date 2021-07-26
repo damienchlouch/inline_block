@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img_top{
+    margin-top: 10px;
+}
+
+#whole{
+    width: 100%;
+    margin: auto;
+}
+header{
+    background-color: rgb(14, 141, 159);
+    width: 100%;
+    text-align: center;
+}
+#flag{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(14, 141, 159);
+    overflow :scroll;
+}
+#menu{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.btn_menu{
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(16, 81, 134);
+    border-radius: 15px;
+}
+.btn_menu:hover{
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(189, 220, 245);
+}
+nav li{
+    display: inline-block;
+}
+
+.barre{
+    color: white;
+}
+
+#menu ul{
+    text-align: center;
+}
+#last_scores_titre{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient( to left, #118da0, #116572);
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#last_scores_titre p{
+    padding: 5px;
+}
+#last_scores{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#1132a0, #5467d3);
+    max-width: 1000px;
+}
+
+#match1{
+    display: inline-block;
+    padding: 15px;
+    width: 100px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#match2{
+    display: inline-block; 
+    padding: 15px;
+    width: 100px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#last_news_titre{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient( to left, #118da0, #116572);
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    
+}
+
+#last_news_titre p{
+    padding: 5px;
+}
+
+#last_news{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-color: #5467d3;
+    max-width: 1000px;
+}
+
+#photo_news{
+    display: inline-block;
+    padding: 5px;
+}
+
+#bloc_news{
+    /*vertical-align: top;*/
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+#text_news{
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+}
+
+#classement_titre{
+        width: 100%;
+        height: 30px;
+        background: linear-gradient( to left, #118da0, #116572);
+        max-width: 1000px;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 15pt;
+        font-weight: bold;
+        
+}
+
+#classement_titre p{
+    padding: 5px;
+}
+
+#matchs_titre{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient( to left, #118da0, #116572);
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    
+}
+
+#joueurs_titre{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient( to left, #118da0, #116572);
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    
+}
+
+#match_page_1{
+    display: inline-block;
+    padding: 15px;
+    width: 100px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#match_page_2{
+    display: inline-block; 
+    padding: 15px;
+    width: 100px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#last_scores_page_match{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#1132a0, #5467d3);
+    max-width: 1000px;
+}
+
+#last_player{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#1132a0, #5467d3);
+    max-width: 1000px;
+}
+
+.last_rank{
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(#1132a0, #5467d3);
+    max-width: 1000px;
+    height: 150px;
+}
+
+.last_rank tbody th {
+    width: 300px;
+}
+
+.group{
+    padding: 10px;
+}
+
+#group_2{
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+tbody tr:nth-child(2) {
+    margin: 0;
+    background-color: rgb(55, 175, 255);
+}
+tbody tr:nth-child(1) {
+    margin: 0;
+    background-color: rgb(55, 175, 255);
+}
+
+.roll_jou:hover{
+    opacity: 70%;
+    transition: 0.3s;
+}
+caption{
+    text-align: left;
+}
+/*tr{
+    text-align: left;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: left;
+}
+*/
+
+#btn_R{
+   display: inline;
+}
+
+.color_points{
+    color: rgb(147, 255, 237);
+    text-align: center;
+}
+
+@media (max-width: 1250px) {
+    #menu{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: white;
+        font-size: 7pt;
+        font-weight: bold;
+    }
+    .btn_menu{
+        width: 70px;
+        background-color: rgb(16, 81, 134);
+        border-radius: 10px;
+    }
+    .btn_menu:hover{
+        width: 70px;
+        background-color: rgb(189, 220, 245);
+    }
+}
